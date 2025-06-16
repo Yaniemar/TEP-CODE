@@ -1,9 +1,8 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-*{
-    font-family:'Poppins',sans-serif;
+* {
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
@@ -21,6 +20,7 @@ a {
 html {
     scroll-behavior: smooth;
 }
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -31,15 +31,15 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:40px 50px;
-    margin-left: -2.34vw;            
-    margin-right: -2.34vw; 
+    padding: 40px 50px;
+    margin-left: -2.34vw;
+    margin-right: -2.34vw;
     background-color: #d9d9d9;
 }
 
 /*Header CSS*/
 .header {
-   position: relative;
+    position: relative;
     width: 100vw;
     left: 50%;
     right: 50%;
@@ -50,16 +50,17 @@ html {
     text-align: center;
     padding-left: 0;
     padding-right: 0;
- 
+
 }
 
 .header img {
     width: 100%;
     height: 600px;
     display: block;
-    opacity: 0.4;  
+    opacity: 0.4;
 
 }
+
 .header::after {
     content: "";
     position: absolute;
@@ -67,12 +68,12 @@ html {
     left: 0;
     width: 100%;
     height: 300px;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 35%, #ffffff 85%); 
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 35%, #ffffff 85%);
     pointer-events: none;
     z-index: 1;
 }
 
-.header-text {   
+.header-text {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -85,25 +86,25 @@ html {
     font-size: 3.75em;
     margin: 0;
     line-height: 1.2;
-    max-width: 90vw;    
+    max-width: 90vw;
 }
 
 .header-text p {
     margin: 2vw 0;
     padding-left: 0;
-    width: 55vw;         
-    max-width: 62.5em;   
-    display: block;  
+    width: 55vw;
+    max-width: 62.5em;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     word-break: break-word;
-    text-align: center; 
+    text-align: center;
     font-size: 1.1em;
-    font-weight: 400;  
+    font-weight: 400;
 }
 
 .header-text span {
-  color: #eb0000;
+    color: #eb0000;
 }
 
 
@@ -117,7 +118,7 @@ html {
     margin: 0 auto;
 }
 
-.services p{
+.services p {
     padding-bottom: 1em;
     display: flex;
     font-size: 1.1em;
@@ -142,6 +143,7 @@ html {
     position: relative;
     z-index: 1;
 }
+
 .cards-container:hover .card,
 .cards-container:hover .card-2 {
     opacity: 0.5;
@@ -149,7 +151,8 @@ html {
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-.cards-container .card:hover,.cards-container .card-2:hover {
+.cards-container .card:hover,
+.cards-container .card-2:hover {
     opacity: 1 !important;
     transform: scale(1.05);
     z-index: 2;
@@ -188,7 +191,7 @@ html {
     font-size: 0.9em;
 }
 
-.card i.fa-arrow-right{
+.card i.fa-arrow-right {
     position: absolute;
     width: 30px;
     height: 30px;
@@ -200,10 +203,11 @@ html {
     align-items: center;
     justify-content: center;
     background: #eb0000;
-    color: #fff;          
-    border-radius: 50%;   
+    color: #fff;
+    border-radius: 50%;
 }
-.card i.fa-arrow-right:hover{
+
+.card i.fa-arrow-right:hover {
     position: absolute;
     width: 30px;
     height: 30px;
@@ -216,52 +220,54 @@ html {
     justify-content: center;
     background-color: #ffffff;
     color: #eb0000;
-    box-shadow: 0 4px 12px rgba(235, 0, 0, 0.3);          
-    border-radius: 50%;   
+    box-shadow: 0 4px 12px rgba(235, 0, 0, 0.3);
+    border-radius: 50%;
 }
 
 /*Buttons CSS*/
-.red-btn, .header-btn {
-    display: flex;             
-    align-items: center;        
-    justify-content: center;  
-    margin: 1em auto;           
+.red-btn,
+.header-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em auto;
     background-color: #eb0000;
-    width: fit-content;        
+    width: fit-content;
     color: white;
     padding: 0.6em 1.6em;
     border-radius: 25px;
     text-decoration: none;
     font-weight: bold;
     font-size: 1em;
-    gap: 0.5em;                 
+    gap: 0.5em;
     cursor: pointer;
 }
 
-.red-btn{
+.red-btn {
     margin-top: 2em;
 }
 
 .get-involve-btn {
-    display: flex;                       
+    display: flex;
     background-color: #eb0000;
-    width: fit-content;        
+    width: fit-content;
     color: white;
-    padding-top:0.6em;
-    padding-bottom:0.6em;
-    padding-left:0.6em;
-    padding-right:0.6em;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
     border-radius: 20px;
     text-decoration: none;
     font-weight: bold;
     font-size: 1em;
-    gap: 0.5em;                 
+    gap: 0.5em;
     cursor: pointer;
     margin-top: 2em;
 }
 
-.red-btn:hover, .header-btn:hover,
-.get-involve-btn:hover  {
+.red-btn:hover,
+.header-btn:hover,
+.get-involve-btn:hover {
     transform: scale(1.05);
     background-color: #ffffff;
     color: #eb0000;
@@ -269,15 +275,19 @@ html {
 }
 
 /*Sub Heading CSS*/
-.aboutUsHeader, .ourImpactHeader,
-.bagongTagapoHeader, .volunteerHeader {
+.aboutUsHeader,
+.ourImpactHeader,
+.bagongTagapoHeader,
+.volunteerHeader {
     display: flex;
     align-items: center;
     gap: 1em;
 }
 
-.aboutUsHeader h2, .ourImpactHeader h2,
-.volunteerHeader h2, .bagongTagapoHeader h2 {
+.aboutUsHeader h2,
+.ourImpactHeader h2,
+.volunteerHeader h2,
+.bagongTagapoHeader h2 {
     font-size: 2.5em;
     margin: 0;
 }
@@ -355,7 +365,7 @@ html {
     font-size: 1.3em;
     font-weight: bold;
     color: #eb0000;
-    cursor:context-menu;
+    cursor: context-menu;
 }
 
 .stat .label span {
@@ -365,10 +375,10 @@ html {
 }
 
 .aboutUsContainer {
-display: flex;
+    display: flex;
     justify-content: center;
     max-width: 1200px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .aboutUsContent {
@@ -379,9 +389,10 @@ display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .text-column {
     flex: 1 1 40%;
-    min-width: 29.28vw; 
+    min-width: 29.28vw;
 }
 
 .text-column p,
@@ -394,33 +405,35 @@ display: flex;
 
 .image-column {
     flex: 1 1 40%;
-    min-width: 43.9vw;  
+    min-width: 43.9vw;
     padding-top: 2em;
     height: auto;
 }
 
 .image-column img {
     width: 100%;
-    height: 320px; 
-    max-width: 51.2vw;   
+    height: 320px;
+    max-width: 51.2vw;
     border-radius: 1em;
     object-fit: cover;
 }
 
- /*Our Impact Section*/
+/*Our Impact Section*/
 .impacts-section {
-    max-width:  87.86vw;
+    max-width: 87.86vw;
     margin: 0 auto;
     padding: 2em;
 }
 
 .impact-section h2 {
-    font-size: 2.93vw;   
-    border-top: 0.29vw solid #eb0000; 
-    padding-top: 0.73vw;   
-    margin-bottom: 0.73vw; 
+    font-size: 2.93vw;
+    border-top: 0.29vw solid #eb0000;
+    padding-top: 0.73vw;
+    margin-bottom: 0.73vw;
 }
-.red-text,.red {
+
+.red-text,
+.red {
     color: #eb0000;
 }
 
@@ -437,11 +450,12 @@ display: flex;
     justify-content: flex-start;
     align-items: center;
 }
+
 .left-column img {
-    width: 56.6vw;        
-    height:   25.6vw;      
+    width: 56.6vw;
+    height: 25.6vw;
     padding: 1.17vw;
-    border-radius: 0.59vw; 
+    border-radius: 0.59vw;
     object-fit: cover;
 }
 
@@ -461,7 +475,7 @@ display: flex;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    width:18.75em;
+    width: 18.75em;
     height: 15.62em;
 }
 
@@ -477,7 +491,7 @@ display: flex;
 .impact-list {
     display: flex;
     flex-direction: column;
-    gap:0.5em;
+    gap: 0.5em;
     margin-left: 5.86vw;
 }
 
@@ -488,12 +502,12 @@ display: flex;
 }
 
 .number-title {
-    width:100%;
+    width: 100%;
     display: flex;
-    flex-direction: row;      
-    align-items: center;    
-    gap: 0.7em;   
-    max-width: 20em;           
+    flex-direction: row;
+    align-items: center;
+    gap: 0.7em;
+    max-width: 20em;
 }
 
 .number {
@@ -501,7 +515,7 @@ display: flex;
     font-weight: bold;
     font-size: 2em;
     text-shadow: 10px 10px 4px rgba(0, 0, 0, 0.15);
-    margin-bottom: 0;         
+    margin-bottom: 0;
     display: block;
 }
 
@@ -509,10 +523,11 @@ display: flex;
     color: #e50000;
     font-weight: bold;
     font-size: 1.2em;
-    margin-bottom: 0;        
+    margin-bottom: 0;
     display: block;
     margin-left: 1.17vw;
 }
+
 .impact-item p {
     color: #000;
     font-size: 1.1em;
@@ -522,8 +537,9 @@ display: flex;
     margin-right: 5vw;
     margin-top: .5em;
 }
+
 /*Para sa Bagong Tagapo section*/
-.bagongTagapoHeader{
+.bagongTagapoHeader {
     margin-bottom: 2em;
 }
 
@@ -545,8 +561,8 @@ display: flex;
     z-index: 2;
     box-shadow: 0 10px 25px rgba(90, 77, 77, 0.2);
     outline: 2px solid #eb0000;
-    outline-offset: 0.1em; 
-    transition: opacity 0.3s ease , transform 0.3s ease;
+    outline-offset: 0.1em;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .case {
@@ -564,7 +580,7 @@ display: flex;
     cursor: context-menu;
 }
 
-.case  img {
+.case img {
     width: 100%;
     height: 220px;
     object-fit: cover;
@@ -584,29 +600,31 @@ display: flex;
     font-size: 0.9em;
     color: #333;
 }
+
 /* Volunteer With Us section*/
-.volunteerHeader{
+.volunteerHeader {
     display: flex;
     align-items: center;
     gap: 0.5em;
-    margin-bottom: -1vw;  
+    margin-bottom: -1vw;
 }
 
 .volunteer-description {
     font-size: 1.2em;
     line-height: 1.5;
-    flex: 1 1 200px;  
-    min-width: 0;     
-    width: auto;       
+    flex: 1 1 200px;
+    min-width: 0;
+    width: auto;
     word-break: break-word;
     width: 58vw;
     margin-left: 7.03vw;
-    
+
 }
-.verticalLine{
+
+.verticalLine {
     left: 50%;
-    height:50px;
-    border-left: 5px solid #eb0000; 
+    height: 50px;
+    border-left: 5px solid #eb0000;
 }
 
 .box {
@@ -631,29 +649,29 @@ display: flex;
     position: absolute;
     top: 0;
     right: 2em;
-    width: 12vw;              
-    max-width: 7em;        
-    height: 16vw;       
-    max-height: 9em;          
+    width: 12vw;
+    max-width: 7em;
+    height: 16vw;
+    max-height: 9em;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top right;
     z-index: 1;
 }
 
-.box .heading-row {  
+.box .heading-row {
     display: flex;
     align-items: center;
-    gap: 0.7em; 
+    gap: 0.7em;
     height: 1.5em;
     padding-top: 1em;
 }
 
 .box-2 .heading-row {
-    
+
     display: flex;
     align-items: center;
-    gap: 0.7em; 
+    gap: 0.7em;
     height: 1.5em;
     padding-top: 1.2vw;
 }
@@ -680,23 +698,24 @@ display: flex;
     font-size: 1.2em;
     text-align: justify;
     line-height: 1.5;
-    padding-left: 6.68vw;   
-    flex: 1 1 14.65vw;;
+    padding-left: 6.68vw;
+    flex: 1 1 14.65vw;
+    ;
     max-width: 30em;
     word-break: break-word;
-    margin-top: 1.1vw;     
-    margin-bottom: 1.1vw; 
+    margin-top: 1.1vw;
+    margin-bottom: 1.1vw;
 }
 
 .box-2 .box-text {
     font-size: 1.2em;
     text-align: justify;
     line-height: 1.5;
-    padding-left:  8.2vw;  
+    padding-left: 8.2vw;
     flex: 1 1 200px;
     max-width: 30em;
     word-break: break-word;
-    margin-top: 0;    
+    margin-top: 0;
     margin-bottom: -11.5vw;
 }
 
@@ -708,7 +727,7 @@ display: flex;
     border-radius: 2em;
     border: 2px solid #000000;
     box-sizing: border-box;
-    padding:2em; 
+    padding: 2em;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -717,10 +736,10 @@ display: flex;
     margin-left: 23vw;
 }
 
-.contact-row {  
+.contact-row {
     display: flex;
     align-items: center;
-    gap: 0.7em; 
+    gap: 0.7em;
     height: 0.1em;
     padding-top: 1em;
     padding-left: 11.7vw;
@@ -744,15 +763,15 @@ display: flex;
     object-fit: contain;
     flex-shrink: 0;
     margin-left: 1em;
-    
+
 }
 
-.contact-row .email-info{ 
+.contact-row .email-info {
     font-size: 1.1em;
     padding-left: 1.2vw;
 }
 
-.contact-row .number-info{ 
+.contact-row .number-info {
     font-size: 1.1em;
 }
 
@@ -768,13 +787,14 @@ display: flex;
     margin-top: 8vw;
 }
 
-.back-to-top-container{
+.back-to-top-container {
     display: flex;
     justify-content: flex-end;
     width: 100%;
     cursor: pointer;
 }
-.back-to-top{
+
+.back-to-top {
     align-items: center;
     gap: 10px;
     padding: 5px 15px;
@@ -783,12 +803,12 @@ display: flex;
     justify-content: flex-end;
     color: white;
     font-weight: 600;
-    margin-left: auto;   
-    margin-right: 0;     
+    margin-left: auto;
+    margin-right: 0;
     margin-top: 1em;
-    margin-bottom: 1em; 
+    margin-bottom: 1em;
     z-index: 1000;
-   
+
 }
 
 .back-to-top:hover {
@@ -796,5 +816,3 @@ display: flex;
     color: #eb0000;
     box-shadow: 0 4px 12px rgba(235, 0, 0, 0.3);
 }
-
-

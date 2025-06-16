@@ -5,8 +5,8 @@
 }
 
 body {
-    margin: 0;
-    font-family: var(--font-base);
+  margin: 0;
+  font-family: var(--font-base);
 }
 
 html {
@@ -37,50 +37,51 @@ html {
   background-color: var(--primary-color);
 }
 
+
 .header {
-    position: relative;
-    width:100%;
-    height: auto;
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
 }
 
 .header img {
-    width: 100%;
-    height: auto;
-    display: block;
-    opacity: 0.90;
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: 0.90;
 }
 
 .header::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 300px;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 35%, #ffffff 85%); 
-    pointer-events: none;
-    z-index: 1;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 35%, #ffffff 85%);
+  pointer-events: none;
+  z-index: 1;
 }
 
 .header-text {
-    position: absolute;
-    bottom: 0px;
-    left: 100px;
-    color: var(--dark-color);
-    padding: 20px;
-    z-index: 2;
+  position: absolute;
+  bottom: 0px;
+  left: 100px;
+  color: var(--dark-color);
+  padding: 20px;
+  z-index: 2;
 
 }
 
 .header-text h1 {
-    font-size: 60px;
-    margin: 0;
-    line-height: 1.2;
+  font-size: 60px;
+  margin: 0;
+  line-height: 1.2;
 }
 
 .header-text h1 span {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .home-icon-overlay {
@@ -157,13 +158,14 @@ input:focus {
   padding: 40px;
 }
 
-.photos-one, 
+.photos-one,
 .photos-two {
   position: relative;
   background-color: var(--light-color);
   border-radius: 20px;
   overflow: hidden;
-  margin-top: 5%; /*Adjusted to fit the window screen */
+  margin-top: 5%;
+  /*Adjusted to fit the window screen */
   width: 100%;
   max-width: 700px;
   transition: transform 0.7s ease;
@@ -182,7 +184,7 @@ input:focus {
 
 /* Carousel Photos */
 
-.photos-container, 
+.photos-container,
 .photos-container-two {
   overflow: hidden;
   position: relative;
@@ -257,10 +259,12 @@ input:focus {
   opacity: 1;
   pointer-events: auto;
 }
+
 .photo-expand-overlay .arrow-icon {
   transition: transform 0.5s ease;
   transform: rotate(180deg);
 }
+
 .photo-expand-overlay .more-click-info {
   margin-top: 10px;
   opacity: 0;
@@ -268,15 +272,17 @@ input:focus {
   transition: opacity 0.5s ease, max-height 0.5s ease;
   margin-left: 40px;
 }
-.photo-expand-overlay .more-click-info .date{
- font-weight: 700;
- font-size: 20px;
- color: var(--light-color);
+
+.photo-expand-overlay .more-click-info .date {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--light-color);
 }
-.photo-expand-overlay .more-click-info .details{
- font-weight: 500;
- font-size: 16px;
- margin-left: 30px;
+
+.photo-expand-overlay .more-click-info .details {
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 30px;
 }
 
 
@@ -286,6 +292,7 @@ input:focus {
   padding: 20px;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0));
 }
+
 .photo-expand-overlay.expanded .more-click-info {
   opacity: 1;
   max-height: 200px;
@@ -293,19 +300,22 @@ input:focus {
   text-align: justify;
   margin-left: 40px;
 }
-.photo-expand-overlay.expanded .more-click-info .date{
- font-weight: 700;
- font-size: 20px;
- color: var(--light-color);
+
+.photo-expand-overlay.expanded .more-click-info .date {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--light-color);
 }
-.photo-expand-overlay.expanded .more-click-info .details{
- font-weight: 500;
- font-size: 16px;
- margin-left: 30px;
+
+.photo-expand-overlay.expanded .more-click-info .details {
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 30px;
 }
+
 .photo-expand-overlay.expanded .arrow-icon {
   transform: rotate(0deg);
-} 
+}
 
 
 /* Carousel Formats */
@@ -352,9 +362,11 @@ input:focus {
   user-select: none;
   border-radius: 50%;
 }
+
 .sub-arrow.left {
   left: 20px;
 }
+
 .sub-arrow.right {
   right: 20px;
 }
@@ -380,7 +392,7 @@ input:focus {
 
 /* Text Formats */
 
-.format-one-heading, 
+.format-one-heading,
 .format-two-heading {
   display: flex;
   align-items: center;
@@ -560,4 +572,3 @@ input:focus {
   color: var(--primary-color);
   box-shadow: 0 4px 12px rgba(235, 0, 0, 0.3);
 }
-

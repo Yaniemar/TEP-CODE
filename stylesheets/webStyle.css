@@ -1,9 +1,5 @@
 /* header */
 
-p, h2 {
-  margin: 0;
-}
-
 header {
     position: absolute;
     top: 0;
@@ -40,6 +36,14 @@ header .logo-text a:hover {
 
 header .logo-image {
     width: 90px;
+}
+
+header .logo-text .info-header p {
+    margin: 0;
+}
+
+header .logo-text .info-header h2 {
+    margin: 0;
 }
 
 header nav {
@@ -131,7 +135,8 @@ header.sticky {
 
 /* footer */
 footer {
-    margin: 0;
+    margin-left: -2.34vw;
+    margin-right: -2.34vw;
     background-color: #221F1F;
     color: white;
     padding: 24px;
