@@ -1,5 +1,9 @@
 /* header */
 
+p, h2 {
+  margin: 0;
+}
+
 header {
     position: absolute;
     top: 0;
@@ -32,11 +36,6 @@ header .logo-text a {
 
 header .logo-text a:hover {
     color: #eb0000;
-}
-
-.header .logo-text p,
-.header .logo-text h2 {
-    margin: 0 !important;
 }
 
 header .logo-image {
