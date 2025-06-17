@@ -511,12 +511,16 @@ html {
 }
 
 .number {
+    position: relative;
+    display: inline-block;
+    background-image: linear-gradient(to bottom, #b8aea7, #ffffff);
+    background-repeat: no-repeat;
+    background-size: 100% 12px;
+    background-position: 0 100%;
+    padding-bottom: 5px;
     color: #e50000;
     font-weight: bold;
     font-size: 2em;
-    text-shadow: 10px 10px 4px rgba(0, 0, 0, 0.15);
-    margin-bottom: 0;
-    display: block;
 }
 
 .impact-title {
