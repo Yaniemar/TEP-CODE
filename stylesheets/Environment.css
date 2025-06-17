@@ -515,9 +515,9 @@ html {
     display: inline-block;
     background-image: linear-gradient(to bottom, #b8aea7, #ffffff);
     background-repeat: no-repeat;
-    background-size: 100% 12px;
+    background-size: 100% 22px;
     background-position: 0 100%;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     color: #e50000;
     font-weight: bold;
     font-size: 2em;
