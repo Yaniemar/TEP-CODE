@@ -30,23 +30,23 @@ body {
 .header {
     position: relative;
     width: 100%;
-    height: 43.9vw;
+    height: auto; 
     overflow: hidden;
 
 }
 
 .header .home-icon i {
     position: absolute;
-    top: 0.73vw;
-    left: 5.2vw;
+    margin-top: 2.73vw;
+    left: 7.2vw;
     z-index: 3;
     font-size: 1.83vw;
     color: #ffffff;
     background-color: #eb0000;
     padding: 0.51vw 0.37vw;
     border-radius: 0.37vw;
-    box-shadow: 0 0.29vw 0.88vw rgba(12, 12, 12, 0.3);
     transition: transform 0.5s, background-color 0.5s ease;
+    
 }
 
 .header i:hover {
@@ -75,7 +75,7 @@ body {
     height: 39vw;
     object-fit: cover;
     border-radius: 2.5vw;
-    margin-top: 5vw;
+    margin-top: 9vw;
 
 }
 
@@ -88,7 +88,7 @@ body {
 }
 
 .header h1 {
-    margin-top: 4vw;
+    margin-top: 8vw;
     font-size: 4.05vw;
     color: #000000;
     text-align: center;
@@ -608,14 +608,16 @@ body {
 .more-content-3 .line {
     position: absolute;
     width: 7.3vw;
-    height: 6.7vw;
+    height: 6vw; 
     border-left: 0.73vw solid red;
+    left: 2.2vw; 
+
 }
 
 .more-content-1 .quote {
     position: absolute;
     width: 43.3vw;
-    left: 2.2vw;
+    left: 4.4vw;
     font-weight: 400;
     font-size: 1.76vw;
     text-align: justify;
@@ -624,7 +626,7 @@ body {
 .more-content-3 .quote {
     position: absolute;
     width: 43.3vw;
-    left: 2.2vw;
+    left: 4.4vw;
     top: 1vw;
     font-weight: 400;
     font-size: 1.76vw;
@@ -694,7 +696,7 @@ body {
     width: 4.9vw;
     height: 2.34vw;
     top: 41.7vw;
-    right: 45.5vw;
+    right: 46.5vw;
     cursor: pointer;
     background-size: 100% 100%;
     transition: 1s ease;
@@ -716,9 +718,9 @@ body {
 .more-content-2 .line {
     position: absolute;
     width: 7.3vw;
-    height: 6.7vw;
+    height: 6vw;
     border-right: 0.73vw solid red;
-    right: 49vw;
+    left: 45.8vw;
 }
 
 .more-content-2 .quote {
@@ -733,27 +735,25 @@ body {
 .more-content-2 .firstPicture {
     position: absolute;
     width: 22.8vw;
-    height: 15.4vw;
-    top: 7.3vw;
-    right: 2.2vw;
+    height: 19vw;
+    left: 2.2vw; 
     border-radius: 1.5vw;
 }
 
 .more-content-2 .secondPicture {
     position: absolute;
     width: 22.8vw;
-    height: 15.4vw;
-    top: 24.2vw;
-    right: 2.2vw;
+    height: 19vw; 
+    top: 20.9vw; 
+    left: 2.2vw;
     border-radius: 1.5vw;
 }
 
 .more-content-2 .thirdPicture {
     position: absolute;
     width: 22.8vw;
-    height: 32.2vw;
-    top: 7.3vw;
-    right: 27.1vw;
+    height: 39.8vw;
+    left: 27.1vw;
     object-fit: cover;
     border-radius: 1.5vw;
 }
@@ -761,19 +761,21 @@ body {
 .more-content-2 .fourthPicture {
     position: absolute;
     width: 22.8vw;
-    height: 39.8vw;
-    right: 52.1vw;
+    height: 32.2vw;
+    left: 52.1vw;
     object-fit: cover;
     border-radius: 1.5vw;
+    top:7.3vw;
 }
 
 .more-content-2 .fifthPicture {
     position: absolute;
     width: 22.8vw;
-    height: 39.8vw;
-    right: 77.1vw;
+    height: 32.2vw;
+    left: 77.1vw;
     object-fit: cover;
     border-radius: 1.5vw;
+    margin-top: 7.3vw;
 }
 
 .more-content-2 #collapse2 {
@@ -781,7 +783,7 @@ body {
     width: 4.9vw;
     height: 2.34vw;
     top: 41.7vw;
-    left: 45.5vw;
+    right: 46.5vw;
     cursor: pointer;
     background-size: 100% 100%;
     transition: 1s ease;
