@@ -606,6 +606,7 @@ html {
     max-width: 46vw;
     margin-right: 5vw;
     margin-top: 1.3vw;
+    text-align: justify;
 }
 
 /*Para sa Bagong Tagapo section*/
@@ -858,17 +859,17 @@ html {
 
 .back-to-top {
     align-items: center;
-    gap: 0.73vw;
-    padding: 0.37vw 1.1vw;
+    padding: 0.60vw 1.1vw;
     background-color: #eb0000;
     border-radius: 1.46vw;
     justify-content: flex-end;
     color: white;
+    font-size: 1.32vw; 
     font-weight: 600;
     margin-left: auto;
     margin-right: 0;
     margin-top: 1vw;
-    margin-bottom: 1vw;
+    margin-bottom: 4vw;
 }
 
 .back-to-top:hover {
