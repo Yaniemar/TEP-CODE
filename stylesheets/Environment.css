@@ -620,7 +620,7 @@ html {
     flex-wrap: wrap;
     justify-content: center;
     gap: 2.93vw;
-    max-width: 87.86vw;
+    max-width: auto;
     margin: auto;
     position: relative;
     z-index: 1;
@@ -642,13 +642,14 @@ html {
     border-radius: 1vw;
     overflow: hidden;
     box-shadow: 0.073vw 0.29vw 0.44vw rgba(41, 40, 40, 0.1);
-    width: 21.96vw;
+    width: 25vw;
     display: flex;
     flex-direction: column;
     cursor: pointer;
     text-decoration: none;
     color: inherit;
     cursor: context-menu;
+    text-align: center;
 }
 
 .case img {
@@ -663,13 +664,15 @@ html {
 }
 
 .case h2 {
-    font-size: 1.47vw;
+    font-size: 1.12vw;
     margin: 0 0 0.73vw;
 }
 
 .case p {
-    font-size: 1.18vw;
+    font-size: 1.1vw;
     color: #333;
+    width: 22vw;
+    text-align: justify;
 }
 
 /* Volunteer With Us section*/
