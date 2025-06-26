@@ -256,7 +256,7 @@ html {
 }
 
 .photo-expand-overlay .more-click-info {
-  margin-top: 5px; /* Changed. */
+  margin-top: 10px; /* Changed. */
   opacity: 0;
   max-height: auto;
   text-align: justify;
@@ -280,7 +280,7 @@ html {
 
 /* When clicked: show info and rotates arrow */
 .photo-expand-overlay.expanded {
-  height: 16vh; /* Changed. */
+  height: 17vh; /* Changed. */
   padding: 20px;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0));
 }
