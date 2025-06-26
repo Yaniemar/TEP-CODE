@@ -280,7 +280,7 @@ html {
 
 /* When clicked: show info and rotates arrow */
 .photo-expand-overlay.expanded {
-  height: 17vh; /* Changed. */
+  height: 16.5vh; /* Changed. */
   padding: 20px;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0));
 }
