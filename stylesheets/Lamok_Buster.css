@@ -28,6 +28,12 @@ html {
   padding: 0 20px;
 }
 
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
 
 .header {
   width: 100%;
@@ -112,8 +118,7 @@ html {
 }
 
 .info .container {
-  margin-left: -3px;
-  margin-right: 0;
+  margin-right: 700px;
   padding: 0;
   max-width: unset;
 }
@@ -122,9 +127,8 @@ html {
   font-size: 22px;
   line-height: 1.5;
   text-align: justify;
-  margin: 20px 0;
-  padding-left: 130px;
-  max-width: 1100px;
+  margin: 0px 0;
+  max-width: 1000px;
   font-weight: 450;
 }
 
@@ -462,7 +466,7 @@ html {
   right: 30px;
   display: flex;
   gap: 12px;
-  z-index: 5; /* Changed from 10 t0 5. */
+  z-index: 6; /* Changed from 10 t0 6. */
   transform: translateY(-10%);
 }
 
@@ -477,7 +481,7 @@ html {
   transition: background 0.3s, color 0.3s;
   display: inline-block;
   position: relative;
-  z-index: 10; /* Changed from 10 t0 6. */
+  z-index: 7; /* Changed from 10 t0 7. */
 }
 
 .arrow:hover {
