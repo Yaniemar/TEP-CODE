@@ -256,14 +256,11 @@ html {
 }
 
 .photo-expand-overlay .more-click-info {
-  margin-top: 10px; /* Changed. */
+  margin-top: 5px; /* Changed. */
   opacity: 0;
   max-height: auto;
   text-align: justify;
-  max-width: 85%;
-  text-align: justify;
-  max-height: 0;
-  max-width: 30vw;
+  max-width: 28vw;
   transition: opacity 0.5s ease, max-height 0.5s ease;
   margin-left: 20px;
 }
@@ -277,12 +274,13 @@ html {
 .photo-expand-overlay .more-click-info .details {
   font-weight: 500;
   font-size: 16px;
+  margin-top: 5px;
 }
 
 
 /* When clicked: show info and rotates arrow */
 .photo-expand-overlay.expanded {
-  height: 8vw; /* Changed. */
+  height: 16vh; /* Changed. */
   padding: 20px;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0));
 }
@@ -290,9 +288,7 @@ html {
 .photo-expand-overlay.expanded .more-click-info {
   opacity: 1;
   max-height: auto;
-  max-width: 85%;
-  max-height: 200px;
-  max-width: 30vw;
+  max-width: 28vw;
   text-shadow: 0 0 6px #000000;
   text-align: justify;
   margin-left: 20px;
@@ -307,6 +303,7 @@ html {
 .photo-expand-overlay.expanded .more-click-info .details {
   font-weight: 500;
   font-size: 16px;
+  margin-top: 5px;
 }
 
 .photo-expand-overlay.expanded .arrow-icon {
