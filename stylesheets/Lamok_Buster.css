@@ -259,6 +259,9 @@ html {
 .photo-expand-overlay .more-click-info {
   margin-top: 10px; /* Changed. */
   opacity: 0;
+  max-height: auto;
+  max-width: 85%;
+  text-align: justify;
   max-height: 0;
   max-width: 30vw;
   transition: opacity 0.5s ease, max-height 0.5s ease;
@@ -286,6 +289,8 @@ html {
 
 .photo-expand-overlay.expanded .more-click-info {
   opacity: 1;
+  max-height: auto;
+  max-width: 85%;
   max-height: 200px;
   max-width: 30vw;
   text-shadow: 0 0 6px #000000;
