@@ -36,16 +36,14 @@ html {
 }
 
 .header {
-  width: 100%;
-  max-width: 100%;
+  width: auto;
   overflow: hidden;
   position: relative;
 }
 
 .header img {
-  width: 100%;
+  width: 1950px;
   height: auto;
-  max-width: 100%;
   display: block;
   opacity: 0.90;
 }
@@ -259,11 +257,11 @@ html {
 }
 
 .photo-expand-overlay .more-click-info {
-  margin-top: 10px;
+  margin-top: 5px;
   opacity: 0;
   max-height: 0;
   transition: opacity 0.5s ease, max-height 0.5s ease;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 .photo-expand-overlay .more-click-info .date {
@@ -275,7 +273,6 @@ html {
 .photo-expand-overlay .more-click-info .details {
   font-weight: 500;
   font-size: 16px;
-  margin-left: 30px;
 }
 
 
@@ -291,7 +288,7 @@ html {
   max-height: 200px;
   text-shadow: 0 0 6px #000000;
   text-align: justify;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 .photo-expand-overlay.expanded .more-click-info .date {
@@ -303,7 +300,6 @@ html {
 .photo-expand-overlay.expanded .more-click-info .details {
   font-weight: 500;
   font-size: 16px;
-  margin-left: 30px;
 }
 
 .photo-expand-overlay.expanded .arrow-icon {
