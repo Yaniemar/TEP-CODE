@@ -262,6 +262,8 @@ html {
   max-height: auto;
   max-width: 85%;
   text-align: justify;
+  max-height: 0;
+  max-width: 30vw;
   transition: opacity 0.5s ease, max-height 0.5s ease;
   margin-left: 20px;
 }
@@ -289,6 +291,8 @@ html {
   opacity: 1;
   max-height: auto;
   max-width: 85%;
+  max-height: 200px;
+  max-width: 30vw;
   text-shadow: 0 0 6px #000000;
   text-align: justify;
   margin-left: 20px;
