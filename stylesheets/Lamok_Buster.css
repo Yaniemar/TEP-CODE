@@ -64,7 +64,7 @@ html {
 .header-text {
   position: absolute;
   bottom: 0px;
-  left: 100px;
+  left: 135px;
   color: var(--dark-color);
   padding: 20px;
   z-index: 2;
@@ -72,7 +72,6 @@ html {
 
 .header-text h1 {
   font-size: 60px;
-  margin: 0;
   line-height: 1.2;
 }
 
@@ -125,7 +124,7 @@ html {
   font-size: 22px;
   line-height: 1.5;
   text-align: justify;
-  margin: 0px 0;
+  margin-left: 85px;
   max-width: 1000px;
   font-weight: 450;
 }
@@ -260,15 +259,11 @@ html {
   margin-top: 10px; /* Changed. */
   opacity: 0;
   max-height: auto;
-<<<<<<< update-script
-  
   text-align: justify;
-=======
   max-width: 85%;
   text-align: justify;
   max-height: 0;
   max-width: 30vw;
->>>>>>> main
   transition: opacity 0.5s ease, max-height 0.5s ease;
   margin-left: 20px;
 }
@@ -296,11 +291,8 @@ html {
   opacity: 1;
   max-height: auto;
   max-width: 85%;
-<<<<<<< update-script
-=======
   max-height: 200px;
   max-width: 30vw;
->>>>>>> main
   text-shadow: 0 0 6px #000000;
   text-align: justify;
   margin-left: 20px;
