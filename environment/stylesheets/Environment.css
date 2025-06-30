@@ -246,15 +246,34 @@ html {
     padding: 1vw;
 }
 
-.card h2 {
-    font-size: 1.5vw;
-    margin: 0 0 0.73vw;
+.title-container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
-.card .card-title-red{
-    color: #eb0000;
-    font-size: 0.9vw;
-    font-weight: 500;
-}   
+
+.card-title {
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.subtitle {
+    color: red;
+    font-size: 1.1vw;
+    text-align: justify;
+    max-width: 17vw;
+    line-height: 1.2;
+    margin-left: 0.8vw;
+    margin-top: 0.2vw;
+}
+.subtitle1 {
+    color: red;
+    font-size: 1.1vw;
+    text-align: justify;
+    max-width: 17vw;
+    margin-left: 0.8vw;
+    margin-top: 0.6vw;
+}  
 
 .card p {
     font-size: 1vw;
