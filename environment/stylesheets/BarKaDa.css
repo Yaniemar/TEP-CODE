@@ -311,16 +311,16 @@ span {
 }
 
 .card1 {
-    background-image: url("/environment/env_images/CleanUpDrivePhoto/Clean-Up\ Drive.jpg");
+    background-image: url("../env_images/CleanUpDrivePhoto/Clean-Up\ Drive.jpg");
 }
 .card2 {
-    background-image: url("/environment/env_images/CleanUpDrivePhoto/Canal\ Declogging.jpg");
+    background-image: url("../env_images/CleanUpDrivePhoto/Canal\ Declogging.jpg");
 }
 .card3 {
-    background-image: url("/environment/env_images/CleanUpDrivePhoto/Creek\ Declogging.jpg");
+    background-image: url("../env_images/CleanUpDrivePhoto/Creek\ Declogging.jpg");
 }
 .card4 {
-    background-image: url("/environment/env_images/CleanUpDrivePhoto/Grass\ Cutting.jpg");
+    background-image: url("../env_images/CleanUpDrivePhoto/Grass\ Cutting.jpg");
 }
 
 .slider-img:hover {
