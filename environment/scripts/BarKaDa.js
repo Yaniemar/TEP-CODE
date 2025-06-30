@@ -1,3 +1,19 @@
+/* Lamok Buster */ 
+let next = document.querySelector('.next')
+let prev = document.querySelector('.prev')
+
+next.addEventListener('click', function(){
+    let items = document.querySelectorAll('.item')
+    document.querySelector('.slide').appendChild(items[0])
+})
+
+prev.addEventListener('click', function(){
+    let items = document.querySelectorAll('.item')
+    document.querySelector('.slide').prepend(items[items.length - 1]) // here the length of items = 6
+})
+
+/* Kaminero ni Etaw */
+
 document.addEventListener('DOMContentLoaded', () => {
     let carouselIndex = 0;
     let totalImages = 0;
@@ -40,17 +56,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function openDropdown() {
         dropdown.classList.add('active');
+
         setTimeout(() => {
-            const footerOffset = 200; // Changed
-            window.scrollTo({
-                top: document.body.scrollHeight - footerOffset,
-                behavior: 'smooth'
-            });
-        }, 170);
+            const collapseBtn = document.getElementById('collapse-btn');
+            if (collapseBtn) {
+                collapseBtn.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
+        }, 220);
     }
 
     function closeDropdown() {
         dropdown.classList.remove('active');
+        
+        const containerRow = document.querySelector('.row');
+        if (containerRow) {
+            setTimeout(() => {
+                containerRow.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'center'  
+                });
+            }, 200);
+        }
     }
 
     document.querySelectorAll('.learn-more-btn').forEach(button => {
@@ -66,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 populateDropdown(button);
                 openDropdown();
                 activeButton = button;
-            }, 300);
+            }, 50);
         });
     });
 
@@ -88,16 +114,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-document.querySelectorAll('.slider-img').forEach(slide => {
-    slide.addEventListener('click', () => {
-        document.querySelectorAll('.slider-img').forEach(s => s.classList.remove('active'));
-        slide.classList.add('active');
+/* Back to Top */
 
-        const learnMoreBtn = slide.querySelector('.learn-more-btn');
-        if (learnMoreBtn && !document.querySelector('.expanded-dropdown').classList.contains('active')) {
-            setTimeout(() => {
-                learnMoreBtn.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-            }, 170);
-        }
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
     });
-});
+}
