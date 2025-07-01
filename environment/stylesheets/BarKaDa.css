@@ -15,7 +15,7 @@
 
 .header-container,
 .buttons-container {
-  max-width:720vw;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -112,7 +112,6 @@
   color: var(--primary-color);
 }
 
-
 /* Lamok Buster Section */
 
 .lamok-container {
@@ -122,13 +121,14 @@
     max-width: 1500px;
     height: 800px;
     background: var(--light-color);
+    border-radius: 25px;
     box-shadow: 0 40px 50px var(--muted-gray);
     overflow: hidden;
 }
 
 .lamok-container .slide .item{
-    width: 630px;
-    height: 725px;
+    width: 33vw;
+    height: 67vh;
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
@@ -183,7 +183,6 @@
     display: none;
     z-index: 4;
 }
-
 
 .content .name{
     font-size: 70px;
@@ -320,9 +319,8 @@
   cursor: pointer;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  z-index: 4;
+  z-index: 3;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent);
-  will-change: height, padding;
 }
 
 /* Show the red gradient only on hover */
@@ -379,7 +377,7 @@
   color: var(--light-color);
 }
 
-.photo-expand-overlay .more-click-info .details {
+.photo-expand-overlay .more-click-info .desc {
   font-weight: 500;
   font-size: 16px;
   margin-top: 5px;
@@ -409,7 +407,7 @@
   color: var(--light-color);
 }
 
-.photo-expand-overlay.expanded .more-click-info .details {
+.photo-expand-overlay.expanded .more-click-info .desc {
   font-weight: 500;
   font-size: 16px;
   margin-top: 5px;
@@ -633,7 +631,7 @@ span {
 
 .collapse-container {
     text-align: center;
-    margin-top: 5vh;
+    margin-top: 4vh;
 }
 
 .collapse-btn {
@@ -999,13 +997,7 @@ span {
   max-width: 40vw;
   background-color: rgba(217, 217, 217, 0.3);
   padding: 10px 60px;
-}
-
-.num-line-two {
-  width: 50px;
-  height: 150px;
-  margin-left: -800px;
-  background-color: var(--primary-color);
+  border-left: solid 20px #eb0000;
 }
 
 .number-wrap-one {
